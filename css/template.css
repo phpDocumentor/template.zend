@@ -1,6 +1,4 @@
-@import url('navigation.css');
-@import url('api-content.css');
-@import url('default.css');
+@import url('abstract.css');
 @import url('manual.css');
 
 @charset
@@ -21,15 +19,16 @@ body, html {
     padding: 0px;
 }
 
+#db-menu
+{
+    display: none;
+}
+
 div#file-description {
     padding-top: 0px;
 }
 
 .ui-widget {
-    font-size: 0.8em;
-}
-
-div#content {
     font-size: 0.8em;
 }
 
@@ -1337,4 +1336,10 @@ div.section h1 {
 td#sidebar
 {
     padding-top: 0px;
+}
+
+#sidebar ul li span
+{
+    display: inline-block;
+    height: 16px;
 }
