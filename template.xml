@@ -2,11 +2,11 @@
 <template>
     <author>Mike van Riel</author>
     <email>mike.vanriel@naenius.com</email>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <copyright>Mike van Riel / Naenius 2011</copyright>
     <description>This is the look and feel for Zend Framework</description>
     <dependencies>
-      <template name="abstract" version="1.0.2" />
+      <template name="abstract" version="1.0.3" />
     </dependencies>
     <transformations>
         <transformation query="copy" writer="FileIo" source="js" artifact="js" />
