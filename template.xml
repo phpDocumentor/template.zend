@@ -9,15 +9,13 @@
       <template name="abstract" version="1.0.3" />
     </dependencies>
     <transformations>
-        <transformation query="copy" writer="FileIo" source="js" artifact="js" />
-        <transformation query="copy" writer="FileIo" source="images" artifact="images" />
         <transformation query="copy" writer="FileIo" source="templates/abstract/images" artifact="images" />
         <transformation query="copy" writer="FileIo" source="templates/abstract/css" artifact="css" />
         <transformation query="copy" writer="FileIo" source="templates/abstract/js" artifact="js" />
         <transformation query="copy" writer="FileIo" source="templates/zend/images" artifact="images" />
         <transformation query="copy" writer="FileIo" source="templates/zend/css" artifact="css" />
         <transformation query="copy" writer="FileIo" source="templates/zend/js" artifact="js" />
-        <transformation writer="xml" artifact="structure.xml" /> 
+        <transformation writer="xml" artifact="structure.xml" />
         <transformation writer="xsl" source="templates/zend/index.xsl" artifact="index.html" />
         <transformation writer="xsl" source="templates/abstract/sidebar.xsl" artifact="nav.html">
             <parameters>
