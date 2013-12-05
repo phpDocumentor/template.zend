@@ -13,10 +13,13 @@
                         <a href="graph.html" target="content">Class diagram</a>
                     </li>
                     <li>
-                        <a href="markers.html" target="content">Todo / Fixme</a>
+                        <a href="report_markers.html" target="content">Todo / Fixme</a>
                     </li>
                     <li>
-                        <a href="parse_markers.html" target="content">Errors</a>
+                        <a href="report_parse_markers.html" target="content">Errors</a>
+                    </li>
+                    <li>
+                        <a href="report_deprecated.html" target="content">Deprecated elements</a>
                     </li>
                 </ul>
             </div>
