@@ -255,7 +255,7 @@ label.required {
 
 /* < top styles */
 #top {
-    background: #f2f2f2 url(http://framework.zend.com/images/bkg_top.gif) left top repeat-x;
+    background: #f2f2f2 url(../images/bkg_top.gif) left top repeat-x;
     height: 51px;
 }
 
@@ -270,7 +270,7 @@ label.required {
     width: 123px;
     height: 23px;
     padding: 1px;
-    background: url(http://framework.zend.com/images/logo.png) left top no-repeat;
+    background: url(../images/logo_small.gif) left top no-repeat;
     margin: 10px 0 0;
     text-indent: -3000px;
     overflow: hidden;
